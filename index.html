@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>99 multiplication table</title>
+<style type="text/css">
+  .title{
+    width:810px;
+    height:auto;
+    text-align: center;
+    margin: 10px 10px;
+  }
+  .mtable {
+    float: left;
+    width:810px;
+    height:auto;
+    margin:0 auto;
+  }
+  .mtable li{
+    width:80px;
+    margin: 2px 4px;
+    list-style:none;
+    float:left;
+    text-align:center;
+    border:1px solid #319600;
+  }
+
+  .mtable .none{
+    border:1px solid #ffffff;
+  }
+</style>
+</head>
+<body>
+<div class="title">
+  <strong id="title">99乘法表(三角形向右)</strong>：
+  <input id="changeBtn" type="button" onclick="toggle();" value="改变方向" data-val="right"/>
+</div>
+<div id="mt">
+</div>
+
+</body>
+</html>
+
+<script language="javascript" type="text/javascript" src="js/99mt.js"></script>
